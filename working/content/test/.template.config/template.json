@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Andrew Chan",
+    "classifications": [ "Test", "Code" ],
+    "identity": "HelpfulTemplates.AbstractSystemNameTest",
+    "name": "A helpful template for creating an abstract test fixture",
+    "shortName": "abtest",
+    "tags": {
+      "language": "C#",
+      "type": "item"
+    },
+    "symbols": {
+      "SystemName":{
+        "type": "parameter",
+        "description": "Name of the system under test",
+        "datatype": "text",
+        "replaces": "SystemName",
+        "fileRename": "SystemName",
+        "defaultValue": "SystemName"
+      }
+    }
+  }

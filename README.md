@@ -35,7 +35,7 @@ dotnet new csty -S SomeSolutionToReplace --force
 
 ```csharp
 [TestFixture]
-public abstract class AbstractSomeServiceTestFixture
+public abstract class AbstractSomeServiceTest
 {
     protected abstract ISomeService GetSomeService();
 
@@ -54,7 +54,7 @@ public abstract class AbstractSomeServiceTestFixture
     }
 }
 
-public class BaseSomeServiceTestFixture : AbstractSomeServiceTestFixture
+public class BaseSomeServiceTest : AbstractSomeServiceTest
 {
     protected override ISomeService GetSomeService()
     {
