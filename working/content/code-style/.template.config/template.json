@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Andrew Chan",
+    "classifications": [ "Code" ],
+    "identity": "HelpfulTemplates.CodeStyle",
+    "name": "Editorconfigs and DotSettings to help keep code style consistent",
+    "shortName": "csty",
+    "tags": {
+      "language": "C#",
+      "type": "item"
+    },
+    "symbols": {
+      "SystemName":{
+        "type": "parameter",
+        "description": "The solution name for a resharper DotSettings",
+        "datatype": "text",
+        "replaces": "SolutionName",
+        "fileRename": "SolutionName",
+        "defaultValue": "SolutionName"
+      }
+    }
+  }
